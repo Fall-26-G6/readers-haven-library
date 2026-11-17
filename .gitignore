@@ -1,0 +1,17 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# Parcel cache
+.parcel-cache/
+
+# secrets and local config
+.env
+*.log
+
+# editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
