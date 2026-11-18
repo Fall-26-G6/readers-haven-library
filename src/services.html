@@ -1,54 +1,262 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Readers' Haven Public Library - Digital Services">
-  <title>Digital Services | Readers' Haven Public Library</title>
-  <link rel="stylesheet" href="../styles/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Readers' Haven Public Library</title>
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="index.html">
-        <span class="brand-mark" aria-hidden="true">RH</span>
-        <span class="brand-text">Readers' Haven<small>Public Library</small></span>
-      </a>
-      <nav class="site-nav" aria-label="Main navigation">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="collections.html">Collections</a></li>
-          <li><a href="membership.html">Membership</a></li>
-          <li><a href="services.html" class="active" aria-current="page">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
 
-  <main class="container page-content">
-    <section class="page-title">
-      <h1>Digital Services</h1>
-      <p class="lead">Online catalogue, e-books, study rooms and more.</p>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-inner">
+
+            <a href="index.html" class="brand">
+                <span class="brand-mark">RH</span>
+                <span class="brand-text">
+                    Readers' Haven
+                    <small>Public Library</small>
+                </span>
+            </a>
+
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="collections.html">Collections</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="services.html" class="active">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-inner">
+            <p class="eyebrow">Discover • Learn • Grow</p>
+
+            <h1>Our Library Services</h1>
+
+            <p class="lead">
+                Readers' Haven offers a variety of services to encourage
+                reading, support education, and bring our community together.
+                Explore everything our library has to offer.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#services" class="btn btn-primary">
+                    Explore Services
+                </a>
+
+                <a href="contact.html" class="btn btn-outline">
+                    Contact Us
+                </a>
+            </div>
+        </div>
     </section>
 
-    <!--
-      Member 3: build this page inside <main>.
-      Branch: feature/services-page
-      Reuse the existing classes (.card, .grid, .btn, .table-wrap ...) from ../styles/style.css.
-      Add your own styles ONLY inside your section marked in style.css, plus at least one @media query.
-    -->
-    <section class="card">
-      <h2>Coming soon</h2>
-      <p>This page is being built by Member 3.</p>
-    </section>
-  </main>
+    <!-- Main Content -->
+    <main class="container page-content">
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>&copy; 2026 Readers' Haven Public Library. A fictional library for a DevOps course project.</p>
-      <p>Open Mon-Sat, 9:00 AM - 8:00 PM</p>
-    </div>
-  </footer>
+        <!-- Services -->
+        <section class="section" id="services">
+
+            <h2 class="section-title">What We Offer</h2>
+
+            <p class="section-lead">
+                Our library provides useful resources and facilities
+                for readers, students, researchers, and families.
+            </p>
+
+            <div class="grid grid-3">
+
+                <article class="card">
+                    <h3>📚 Book Lending</h3>
+                    <p>
+                        Borrow books, novels, magazines, and educational
+                        materials from our extensive library collection.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>💻 Digital Library</h3>
+                    <p>
+                        Access digital books, online learning materials,
+                        research articles, and educational resources.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>📖 Reading Rooms</h3>
+                    <p>
+                        Enjoy a peaceful environment with comfortable
+                        seating for reading, studying, and learning.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>🔍 Research Assistance</h3>
+                    <p>
+                        Get assistance finding books, academic resources,
+                        and reliable information for your research.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>👨‍🏫 Educational Workshops</h3>
+                    <p>
+                        Participate in educational workshops, literacy
+                        programs, and creative learning activities.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>👨‍👩‍👧 Community Programs</h3>
+                    <p>
+                        Take part in book clubs, reading competitions,
+                        group discussions, and community events.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Additional Facilities -->
+        <section class="section">
+
+            <h2 class="section-title">Additional Facilities</h2>
+
+            <p class="section-lead">
+                We provide a comfortable and welcoming environment
+                for everyone who visits our library.
+            </p>
+
+            <div class="grid grid-2">
+
+                <article class="card">
+                    <h3>📶 Free Wi-Fi</h3>
+                    <p>
+                        Stay connected and access online educational
+                        resources during your library visit.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>🪑 Comfortable Seating</h3>
+                    <p>
+                        Relax in comfortable spaces designed for
+                        individual reading and focused study.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>🧒 Children's Corner</h3>
+                    <p>
+                        A dedicated space where children can enjoy
+                        stories, picture books, and reading activities.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>♿ Accessible Facilities</h3>
+                    <p>
+                        We aim to create an inclusive environment
+                        that welcomes visitors of all abilities.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- How to Access Services -->
+        <section class="section">
+
+            <h2 class="section-title">How to Get Started</h2>
+
+            <p class="section-lead">
+                Enjoy our library services in three simple steps.
+            </p>
+
+            <div class="grid grid-3">
+
+                <article class="card">
+                    <h3>01. Join Our Library</h3>
+                    <p>
+                        Register for membership to enjoy library
+                        borrowing privileges and member benefits.
+                    </p>
+                    <a href="membership.html" class="btn btn-primary">
+                        Become a Member
+                    </a>
+                </article>
+
+                <article class="card">
+                    <h3>02. Explore Resources</h3>
+                    <p>
+                        Discover books, digital materials, reading
+                        spaces, and educational opportunities.
+                    </p>
+                    <a href="collections.html" class="btn btn-primary">
+                        Browse Books
+                    </a>
+                </article>
+
+                <article class="card">
+                    <h3>03. Contact Us</h3>
+                    <p>
+                        Our library team is available to answer
+                        your questions and provide assistance.
+                    </p>
+                    <a href="contact.html" class="btn btn-primary">
+                        Get in Touch
+                    </a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="section">
+
+            <div class="card section-title">
+                <h2>Discover a World of Knowledge</h2>
+
+                <p class="lead">
+                    Visit Readers' Haven and make reading, learning,
+                    and discovery part of your everyday life.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="membership.html" class="btn btn-primary">
+                        Join Our Library
+                    </a>
+
+                    <a href="contact.html" class="btn btn-outline">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>
+                &copy; 2026 Readers' Haven Public Library.
+                All rights reserved.
+            </p>
+
+            <p>Discover • Learn • Grow</p>
+        </div>
+    </footer>
+
 </body>
 </html>
+```
