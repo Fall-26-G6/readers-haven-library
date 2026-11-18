@@ -150,5 +150,5 @@ input:focus, textarea:focus { border-color: var(--c-primary); }
 
 /* ---- CONTACT PAGE (Member 4, feature/contact-page) ---- */
 textarea { resize: vertical; }
-
+@media (max-width: 640px) { form .btn { width: 100%; } }
 
