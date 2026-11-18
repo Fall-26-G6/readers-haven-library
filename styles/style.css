@@ -193,7 +193,20 @@ input:focus, textarea:focus { border-color: var(--c-primary); }
     margin-top: 1.25rem;
 }
 
+/* Responsive Services Page */
+@media (max-width: 640px) {
+    .service-card {
+        align-items: flex-start;
+    }
 
+    .service-cta .card {
+        padding: 1.75rem 1rem;
+    }
+
+    .service-icon {
+        font-size: 2rem;
+    }
+}
 
 /* ---- CONTACT PAGE (Member 4, feature/contact-page) ---- */
 textarea { resize: vertical; }
