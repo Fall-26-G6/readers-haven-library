@@ -141,6 +141,15 @@ input:focus, textarea:focus { border-color: var(--c-primary); }
 
 /* ---- COLLECTIONS PAGE (Member 1, feature/collections-page) ---- */
 
+.book-list { margin: 0; padding-left: 1.2rem; }
+.book-list li { padding: 0.25rem 0; }
+
+@media (max-width: 640px) {
+  .book-list { padding-left: 1rem; font-size: 0.95rem; }
+}
+
+/* ---- MEMBERSHIP PAGE (Member 2, feature/membership-page) ---- */
+
 .membership-plans {
     margin-top: 2rem;
 }
@@ -177,16 +186,9 @@ input:focus, textarea:focus { border-color: var(--c-primary); }
     .membership-cta {
         padding: 1.2rem;
     }
-.book-list { margin: 0; padding-left: 1.2rem; }
-.book-list li { padding: 0.25rem 0; }
-.book-list { margin: 0; padding-left: 1.2rem; }
-.book-list li { padding: 0.25rem 0; }
-
-@media (max-width: 640px) {
-  .book-list { padding-left: 1rem; font-size: 0.95rem; }
 }
 
-
+/* ---- SERVICES PAGE (Member 3, feature/services-page) ---- */
 
 .service-card {
     display: flex;
@@ -247,3 +249,9 @@ input:focus, textarea:focus { border-color: var(--c-primary); }
 textarea { resize: vertical; }
 @media (max-width: 640px) { form .btn { width: 100%; } }
 
+/* ---- HOME PAGE (Team Lead, feature/home-page) ---- */
+.link-card strong { letter-spacing: 0.01em; }
+
+@media (max-width: 480px) {
+  .hero-actions .btn { width: 100%; text-align: center; }
+}
