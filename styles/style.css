@@ -143,6 +143,13 @@ input:focus, textarea:focus { border-color: var(--c-primary); }
 
 .book-list { margin: 0; padding-left: 1.2rem; }
 .book-list li { padding: 0.25rem 0; }
+.book-list { margin: 0; padding-left: 1.2rem; }
+.book-list li { padding: 0.25rem 0; }
+
+@media (max-width: 640px) {
+  .book-list { padding-left: 1rem; font-size: 0.95rem; }
+}
+
 /* ---- MEMBERSHIP PAGE (Member 2, feature/membership-page) ---- */
 
 
