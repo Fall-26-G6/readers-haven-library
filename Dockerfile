@@ -20,6 +20,9 @@ RUN npm run build
 # Stage 2: serve the built files with Nginx
 FROM nginx:1.27-alpine
 
+# Describe the image
+LABEL description="Readers' Haven static website served by Nginx"
+
 # Copy only the built site from stage 1
 COPY --from=builder /app/dist /usr/share/nginx/html
 
