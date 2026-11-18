@@ -1,54 +1,191 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Readers' Haven Public Library - Membership">
-  <title>Membership | Readers' Haven Public Library</title>
-  <link rel="stylesheet" href="../styles/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership | Readers' Haven Public Library</title>
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="index.html">
-        <span class="brand-mark" aria-hidden="true">RH</span>
-        <span class="brand-text">Readers' Haven<small>Public Library</small></span>
-      </a>
-      <nav class="site-nav" aria-label="Main navigation">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="collections.html">Collections</a></li>
-          <li><a href="membership.html" class="active" aria-current="page">Membership</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
 
-  <main class="container page-content">
-    <section class="page-title">
-      <h1>Membership</h1>
-      <p class="lead">Choose the plan that fits you or your family.</p>
-    </section>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="brand">
+                <span class="brand-mark">R</span>
+                <span class="brand-text">
+                    Readers' Haven
+                    <small>Public Library</small>
+                </span>
+            </a>
 
-    <!--
-      Member 2: build this page inside <main>.
-      Branch: feature/membership-page
-      Reuse the existing classes (.card, .grid, .btn, .table-wrap ...) from ../styles/style.css.
-      Add your own styles ONLY inside your section marked in style.css, plus at least one @media query.
-    -->
-    <section class="card">
-      <h2>Coming soon</h2>
-      <p>This page is being built by Member 2.</p>
-    </section>
-  </main>
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="collections.html">Collections</a></li>
+                    <li><a href="membership.html" class="active">Membership</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>&copy; 2026 Readers' Haven Public Library. A fictional library for a DevOps course project.</p>
-      <p>Open Mon-Sat, 9:00 AM - 8:00 PM</p>
-    </div>
-  </footer>
+    <!-- Membership Page -->
+    <main class="page-content">
+        <div class="container">
+
+            <h1 class="page-title section-title">Library Membership</h1>
+
+            <p class="lead section-lead">
+                Become a member of Readers' Haven Public Library and
+                enjoy access to thousands of books, digital resources,
+                reading spaces, and exclusive library services.
+            </p>
+
+            <!-- Membership Benefits -->
+            <section class="section">
+                <h2 class="section-title">Membership Benefits</h2>
+
+                <div class="grid grid-3">
+
+                    <div class="card">
+                        <h3>Access to Books</h3>
+                        <p>
+                            Borrow books from our extensive collection
+                            covering fiction, science, history,
+                            technology, and more.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <h3>Digital Resources</h3>
+                        <p>
+                            Explore online learning materials,
+                            e-books, research journals, and
+                            educational resources.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <h3>Reading Spaces</h3>
+                        <p>
+                            Enjoy a peaceful reading environment
+                            with comfortable study areas and
+                            dedicated learning spaces.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Membership Plans -->
+            <section class="section">
+                <h2 class="section-title">Membership Plans</h2>
+
+                <p class="section-lead">
+                    Choose a membership plan that suits your reading
+                    and learning needs.
+                </p>
+
+                <div class="grid grid-3">
+
+                    <div class="card">
+                        <h3>Student Membership</h3>
+                        <p class="lead">Free</p>
+
+                        <ul>
+                            <li>Borrow up to 3 books</li>
+                            <li>14-day borrowing period</li>
+                            <li>Access to reading areas</li>
+                            <li>Digital resources access</li>
+                        </ul>
+
+                        <a href="contact.html" class="btn btn-outline">
+                            Apply Now
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <h3>Standard Membership</h3>
+                        <p class="lead">$10 / Year</p>
+
+                        <ul>
+                            <li>Borrow up to 5 books</li>
+                            <li>21-day borrowing period</li>
+                            <li>Access to reading areas</li>
+                            <li>Digital resources access</li>
+                        </ul>
+
+                        <a href="contact.html" class="btn btn-primary">
+                            Apply Now
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <h3>Premium Membership</h3>
+                        <p class="lead">$20 / Year</p>
+
+                        <ul>
+                            <li>Borrow up to 10 books</li>
+                            <li>30-day borrowing period</li>
+                            <li>Priority reading spaces</li>
+                            <li>Full digital resources access</li>
+                        </ul>
+
+                        <a href="contact.html" class="btn btn-outline">
+                            Apply Now
+                        </a>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Membership Requirements -->
+            <section class="section">
+                <div class="card">
+                    <h2>Membership Requirements</h2>
+
+                    <p>To register for library membership, please prepare:</p>
+
+                    <ul>
+                        <li>A valid identification document.</li>
+                        <li>A recent passport-size photograph.</li>
+                        <li>Proof of address.</li>
+                        <li>Student ID (for student membership).</li>
+                        <li>Completed membership application form.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Call to Action -->
+            <section class="section">
+                <div class="card section-title">
+                    <h2>Become a Member Today!</h2>
+
+                    <p>
+                        Start your reading journey with Readers' Haven.
+                        Join our library community and discover
+                        endless opportunities to learn.
+                    </p>
+
+                    <a href="contact.html" class="btn btn-primary">
+                        Contact Us to Join
+                    </a>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Readers' Haven Public Library. All rights reserved.</p>
+            <p>Read More. Learn More. Grow More.</p>
+        </div>
+    </footer>
+
 </body>
 </html>

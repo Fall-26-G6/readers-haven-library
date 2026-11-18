@@ -141,6 +141,42 @@ input:focus, textarea:focus { border-color: var(--c-primary); }
 
 /* ---- COLLECTIONS PAGE (Member 1, feature/collections-page) ---- */
 
+.membership-plans {
+    margin-top: 2rem;
+}
+
+.membership-plans .card {
+    text-align: center;
+}
+
+.membership-plans .card ul {
+    text-align: left;
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.membership-plans .lead {
+    color: var(--c-accent);
+    font-weight: 700;
+}
+
+.membership-cta {
+    background: var(--c-hero);
+    text-align: center;
+    border-radius: var(--radius);
+}
+@media (max-width: 640px) {
+    .membership-plans {
+        margin-top: 1rem;
+    }
+
+    .membership-plans .card {
+        padding: 1rem;
+    }
+
+    .membership-cta {
+        padding: 1.2rem;
+    }
 .book-list { margin: 0; padding-left: 1.2rem; }
 .book-list li { padding: 0.25rem 0; }
 .book-list { margin: 0; padding-left: 1.2rem; }
@@ -150,7 +186,6 @@ input:focus, textarea:focus { border-color: var(--c-primary); }
   .book-list { padding-left: 1rem; font-size: 0.95rem; }
 }
 
-/* ---- MEMBERSHIP PAGE (Member 2, feature/membership-page) ---- */
 
 
 .service-card {
