@@ -141,7 +141,8 @@ input:focus, textarea:focus { border-color: var(--c-primary); }
 
 /* ---- COLLECTIONS PAGE (Member 1, feature/collections-page) ---- */
 
-
+.book-list { margin: 0; padding-left: 1.2rem; }
+.book-list li { padding: 0.25rem 0; }
 /* ---- MEMBERSHIP PAGE (Member 2, feature/membership-page) ---- */
 
 
